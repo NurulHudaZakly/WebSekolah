@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    max-width: 400px; /* Lebar maksimum untuk container */
+    margin: 100px auto; /* Margin atas/bawah 100px dan auto untuk tengah */
+    padding: 20px;
+    background-color: #ffffff; /* Warna latar belakang form */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+h1 {
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 20px; /* Jarak bawah */
+    color: #008080; /* Warna teks teal */
+}
+
+label {
+    font-weight: bold; /* Teks tebal untuk label */
+    margin-top: 10px; /* Jarak atas untuk label */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding di dalam input */
+    margin: 5px 0 15px 0; /* Jarak atas dan bawah */
+    border: 1px solid #ced4da; /* Border abu-abu */
+    border-radius: 4px; /* Sudut melengkung pada input */
+    box-sizing: border-box; /* Menghitung padding dan border dalam total width */
+}
+
+button {
+    width: 100%; /* Lebar penuh untuk tombol */
+    padding: 10px; /* Padding di dalam tombol */
+    background-color: #008080; /* Warna tombol teal */
+    border: none; /* Tanpa border */
+    border-radius: 4px; /* Sudut melengkung */
+    color: white; /* Warna teks putih */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Pointer saat hover */
+}
+
+button:hover {
+    background-color: #006666; /* Warna saat hover */
+}
