@@ -1,0 +1,18 @@
+/* Menampilkan submenu ketika di-hover */
+.dropdown:hover ul {
+    display: block; /* Menampilkan dropdown saat hover */
+}
+
+/* Gaya tambahan untuk submenu */
+.dropdown ul li {
+    margin-bottom: 5px;
+}
+
+.dropdown ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown ul li a:hover {
+    color: #007bff; /* Warna saat hover */
+}
